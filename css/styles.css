@@ -548,9 +548,9 @@ img {
 
 .modal-button:hover,
 .modal-button:focus {
-    background-color: var(--ocean);
+    background-color: #404bbf;
     border: none;
-    fill: var(--white);
+    fill: #ffffff;
 }
 
 .cross {
