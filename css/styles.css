@@ -494,6 +494,7 @@ img {
 
 /*================== Modal ==================*/
 
+
 .modal {
     position: fixed;
     width: 100%;
@@ -526,7 +527,7 @@ img {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-    /* transform: scale(5); */
+    
 }
 
 .modal-button-close {
