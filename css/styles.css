@@ -548,21 +548,29 @@ img {
     transition-timing-function: var(--transition-function);
 }
 
-.modal-button-close:hover,
+.cross {
+    transition: fill var(--transition-dur) var(--transition-function);
+}
+
+.modal-button-close:hover {
+    background-color: var(--ocean);
+    border: none;
+}
+
 .modal-button-close:focus {
     background-color: var(--ocean);
     border: none;
 }
 
-.modal-button-close:hover .cross,
+.modal-button-close:hover .cross {
+    fill: #ffffff;
+}
+
 .modal-button-close:focus .cross {
     fill: #ffffff;
 }
 
 
-.cross {
-    transition: fill var(--transition-dur) var(--transition-function);
-}
 
 /* ----------------Portfolio----------------*/
 
