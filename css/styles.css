@@ -543,14 +543,20 @@ img {
     border-radius: 50%;
     cursor: pointer;
     background-color: var(--cornflower);
-    transition: background-color var(--transition-dur) var(--transition-function), border var(--transition-dur) var(--transition-function); 
+    transition-property: background-color, border ;
+    transition-duration: var(--transition-dur);
+    transition-timing-function: var(--transition-function);
 }
 
 .modal-button-close:hover,
 .modal-button-close:focus {
-    fill: #ffffff;
     background-color: var(--ocean);
-    border-color: transparent;
+    border: none;
+}
+
+.modal-button-close:hover .cross,
+.modal-button-close:focus .cross {
+    fill: #ffffff;
 }
 
 
