@@ -553,21 +553,21 @@ img {
     transition: fill var(--transition-dur) var(--transition-function);
 }
 
-.modal-button-close:hover {
+.close-backdrop:hover {
     background-color: var(--ocean);
     border: none;
 }
 
-.modal-button-close:focus {
+.close-backdrop:focus {
     background-color: var(--ocean);
     border: none;
 }
 
-.modal-button-close:hover .cross {
+.close-backdrop:hover .cross {
     fill: #ffffff;
 }
 
-.modal-button-close:focus .cross {
+.close-backdrop:focus .cross {
     fill: #ffffff;
 }
 
