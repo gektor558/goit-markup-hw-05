@@ -550,7 +550,7 @@ img {
 .modal-button-close:focus {
     fill: #ffffff;
     background-color: var(--ocean);
-    border: none;
+    border-color: transparent;
 }
 
 
