@@ -530,7 +530,7 @@ img {
     
 }
 
-.modal-button-close {
+.close-backdrop {
     display: flex;
     position: absolute;
     align-items: center;
